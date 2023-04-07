@@ -17,6 +17,8 @@
             Console.Write("Choose Any one option: ");
             int option = Convert.ToInt32(Console.ReadLine());
 
+            // for the time sake some methods needs arguments directly
+
             switch (option)
             {
                 case 1:
@@ -26,7 +28,7 @@
                     application.AddTournament();
                     break;
                 case 3:
-                    application.AddScoreBoard(3);
+                    application.AddScoreBoard(4);
                     break;
                 case 4:
                     application.EditScoreBoard(1, 50);
