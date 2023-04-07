@@ -83,7 +83,7 @@ namespace week_3_assesment
             }
         }
 
-        private void RemoveSport(int sportName)
+        private void RemoveSport(string sportName)
         {
             try
             {
